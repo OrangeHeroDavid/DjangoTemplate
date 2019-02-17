@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6531d982-8fe4-47d1-995d-e4e8da112481" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/template_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/template_test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app01/templatetags/my_filter.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app01/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -48,6 +46,11 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app01/templatetags/my_filter.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -81,6 +84,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -91,12 +101,13 @@
         <option value="$PROJECT_DIR$/template_demo/settings.py" />
         <option value="$PROJECT_DIR$/templates/template_test.html" />
         <option value="$PROJECT_DIR$/app01/views.py" />
+        <option value="$PROJECT_DIR$/app01/templatetags/my_filter.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="196" />
-    <option name="width" value="1703" />
+    <option name="x" value="670" />
+    <option name="width" value="1229" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -110,6 +121,17 @@
             <path>
               <item name="DjangoTemplate" type="b2602c69:ProjectViewProjectNode" />
               <item name="DjangoTemplate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DjangoTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="app01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DjangoTemplate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DjangoTemplate" type="462c0819:PsiDirectoryNode" />
+              <item name="app01" type="462c0819:PsiDirectoryNode" />
+              <item name="templatetags" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -180,23 +202,23 @@
       <option name="presentableId" value="Default" />
       <updated>1550366292151</updated>
       <workItem from="1550366294223" duration="2794000" />
-      <workItem from="1550369437213" duration="76000" />
+      <workItem from="1550369437213" duration="285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2870000" />
+    <option name="totallyTimeSpent" value="3079000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="196" y="0" width="1703" height="1047" extended-state="0" />
+    <frame x="670" y="0" width="1229" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26962873" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37895638" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32932165" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32858709" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32858709" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -289,6 +311,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app01/templatetags/my_filter.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
