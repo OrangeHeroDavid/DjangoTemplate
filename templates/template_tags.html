@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{#<table>#}
+{#    {% for tr in list1 %}#}
+{#        <tr>#}
+{##}
+{#            {% for td in tr %}#}
+{##}
+{#                <td>{{ td }}  {{ forloop.parentloop }} </td>#}
+{#            {% endfor %}#}
+{##}
+{#        </tr>#}
+{#    {% endfor %}#}
+{#</table>#}
+
+
+<p>
+    {% for foo in kong %}
+        {{ foo }}
+    {% empty %}
+        没有数据
+    {% endfor %}
+
+</p>
+
+
+{% if user_list|length > 5 %}
+    大于5
+{% elif   user_list|length == 3 %}
+    等于3
+{% else %}
+    小于等5
+{% endif %}
+
+{% if 10 > 5 and 5 > 1%}
+    真的
+{% else %}
+    假的
+{% endif %}
+
+{% with alex1=list1.1.0 %}
+    {{ alex1 }}
+    {{ alex1 }}
+    {{ alex1 }}
+{% endwith %}
+
+
+</body>
+</html>
