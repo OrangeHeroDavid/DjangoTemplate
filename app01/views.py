@@ -20,7 +20,7 @@ def template_test(request):
     liit1 = ['alex', 'peiqi', 'tailiang']
     dict1 = {'name': 'alex', "age": 84, 'keys': 'xxxxx'}
 
-    p1 = Person('OrangeHeroDavid', 25)
+    p1 = Person('大阳哥', 18)
 
     return render(request,
                   'template_test.html', {
@@ -39,7 +39,7 @@ Run 'python manage.py migrate' to apply them.
                       'js': """
                     <script>
                     
-                        for (var i=0;i<3;i++){
+                        for (var i=0;i<5;i++){
                             alert('11111')
                         }
                     </script>""",
