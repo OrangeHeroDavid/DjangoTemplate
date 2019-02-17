@@ -19,19 +19,22 @@
 {#</table>#}
 
 
-<p>
-    {% for foo in kong %}
-        {{ foo }}
-    {% empty %}
-        没有数据
-    {% endfor %}
+{#<p>#}
+{#    {% for foo in kong %}#}
+{#        {{ foo }}#}
+{#    {% empty %}#}
+{#        没有数据#}
+{#    {% endfor %}#}
+{##}
+{#</p>#}
 
-</p>
+
 
 
 {% if user_list|length > 5 %}
     大于5
-{% elif   user_list|length == 3 %}
+{% elif   user_list|length
+    == 3 %}
     等于3
 {% else %}
     小于等5
@@ -42,12 +45,12 @@
 {% else %}
     假的
 {% endif %}
-
-{% with alex1=list1.1.0 %}
-    {{ alex1 }}
-    {{ alex1 }}
-    {{ alex1 }}
-{% endwith %}
+{##}
+{#{% with alex1=list1.1.0 %}#}
+{#    {{ alex1 }}#}
+{#    {{ alex1 }}#}
+{#    {{ alex1 }}#}
+{#{% endwith %}#}
 
 
 </body>
