@@ -31,26 +31,26 @@
 
 
 
-{% if user_list|length > 5 %}
-    大于5
-{% elif   user_list|length
-    == 3 %}
-    等于3
-{% else %}
-    小于等5
-{% endif %}
-
-{% if 10 > 5 and 5 > 1%}
-    真的
-{% else %}
-    假的
-{% endif %}
+{#{% if user_list|length > 5 %}#}
+{#    大于5#}
+{#{% elif   user_list|length #}
+{#    == 3 %}#}
+{#    等于3#}
+{#{% else %}#}
+{#    小于等5#}
+{#{% endif %}#}
 {##}
-{#{% with alex1=list1.1.0 %}#}
-{#    {{ alex1 }}#}
-{#    {{ alex1 }}#}
-{#    {{ alex1 }}#}
-{#{% endwith %}#}
+{#{% if 10 > 5 and 5 > 1%}#}
+{#    真的#}
+{#{% else %}#}
+{#    假的#}
+{#{% endif %}#}
+{##}
+{% with alex1=list1.1.0 %}
+    {{ alex1 }}
+    {{ alex1 }}
+    {{ alex1 }}
+{% endwith %}
 
 
 </body>
