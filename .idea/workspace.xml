@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6531d982-8fe4-47d1-995d-e4e8da112481" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app01/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app01/templatetags/my_filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app01/templatetags/my_filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/templatetags/my_filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/template_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/template_test.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +27,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/template_test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="698">
-              <caret line="63" column="8" lean-forward="true" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
+            <state relative-caret-position="347">
+              <caret line="63" column="4" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -48,9 +48,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app01/templatetags/my_filter.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -99,9 +103,9 @@
       <list>
         <option value="$PROJECT_DIR$/template_demo/urls.py" />
         <option value="$PROJECT_DIR$/template_demo/settings.py" />
-        <option value="$PROJECT_DIR$/templates/template_test.html" />
         <option value="$PROJECT_DIR$/app01/views.py" />
         <option value="$PROJECT_DIR$/app01/templatetags/my_filter.py" />
+        <option value="$PROJECT_DIR$/templates/template_test.html" />
       </list>
     </option>
   </component>
@@ -202,12 +206,12 @@
       <option name="presentableId" value="Default" />
       <updated>1550366292151</updated>
       <workItem from="1550366294223" duration="2794000" />
-      <workItem from="1550369437213" duration="285000" />
+      <workItem from="1550369437213" duration="512000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3079000" />
+    <option name="totallyTimeSpent" value="3306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="670" y="0" width="1229" height="1047" extended-state="0" />
@@ -295,13 +299,6 @@
     <entry file="file://$PROJECT_DIR$/app01/admin.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/template_test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="63" column="8" lean-forward="true" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app01/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -313,7 +310,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app01/templatetags/my_filter.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/template_test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="63" column="4" lean-forward="true" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
