@@ -4,5 +4,5 @@ register = template.Library()  # register的名字不能改
 
 
 @register.filter
-def add_dsb(value, arg='very_dsb'):
+def add_dsb(value, arg):
     return "{}_{}".format(value, arg)
