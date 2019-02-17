@@ -39,7 +39,7 @@ Run 'python manage.py migrate' to apply them.
                       'js': """
                     <script>
                     
-                        for (var i=0;i<5;i++){
+                        for (var i=0;i<3;i++){
                             alert('11111')
                         }
                     </script>""",

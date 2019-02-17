@@ -39,27 +39,27 @@
 <br>
 {{ long_str|truncatechars:9 }}
 <br>
-{#时间：{{ now|date:'Y-m-d H:i:s' }}#}
-{#时间：{{ now|date:'Y-m-d H:i:s' }}#}
-{#时间：{{ now|date:'Y-m-d H:i:s' }}#}
+时间：{{ now|date:'Y-m-d H:i:s' }}
+时间：{{ now|date:'Y-m-d H:i:s' }}
+时间：{{ now|date:'Y-m-d H:i:s' }}
 {{ now }}
-{#<ul>#}
-{#    {% for foo in liit1 %}#}
-{#    <li>#}
-{#    {{ foo }}#}
-{#    </li>#}
-{#    {% endfor %}#}
-{#</ul>#}
-{##}
-{#<ul>#}
-{#    {% for key,value in dict1.items %}#}
-{#    <li>#}
-{#    {{ key }}   {{ value }}#}
-{#    </li>#}
-{#    {% endfor %}#}
-{#</ul>#}
-{#{{ js|safe }}#}
-{#{{ a|safe }}#}
+<ul>
+    {% for foo in liit1 %}
+    <li>
+    {{ foo }}
+    </li>
+    {% endfor %}
+</ul>
+
+<ul>
+    {% for key,value in dict1.items %}
+    <li>
+    {{ key }}   {{ value }}
+    </li>
+    {% endfor %}
+</ul>
+{{ js|safe }}
+{{ a|safe }}
 
 {#<br>#}
 {#{{ name }}#}
